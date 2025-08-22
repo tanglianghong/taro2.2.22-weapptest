@@ -1,0 +1,5 @@
+<!--pages/open-encrypt/open-encrypt.wxml-->
+<view class="container">
+  <video class="vp-v" src="{{ src }}" custom-cache="{{false}}" autoplay
+         bindtimeupdate="timeupdate"></video>
+</view>

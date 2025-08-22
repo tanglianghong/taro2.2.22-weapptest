@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "menu-bar":"/components/menu-bar/menu-bar",
+    "o-button":"/components/button/button"
+  }
+}

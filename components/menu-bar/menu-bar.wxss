@@ -1,0 +1,35 @@
+/* components/menu-bar/menu-bar.wxss */
+.tab{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: #fff;
+  height: 80rpx;
+  font-size: 26rpx;
+  z-index: 999;
+  text-align: center;
+  line-height: 80rpx;
+  box-shadow: 4px 4px 10px #f2f2f2;
+}
+.tab-item{
+  border-bottom: 3px solid #fff;
+  transition: 0.3s;
+}
+.tab-content{
+  overflow: scroll;
+}
+.tab-contents{
+  display: none;
+}
+.on{
+  display: block;
+}
+.active{
+  color: #0770EB;
+  border-bottom: 3px solid #0770EB;
+}
+
+
+
+
